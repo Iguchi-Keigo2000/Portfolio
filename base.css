@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    padding: 15px 0;
+    background-color: mediumblue;
+    color: white;
+}
+
+header .head_title{
+    line-height: 100px;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.game_article{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.game_title{
+    line-height: 75px;
+    height: 75px;
+    width: 100%;
+    font-size: 30px;
+    background-color: gainsboro;
+}
+
+.DLlink{
+    margin: auto;
+}
