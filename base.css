@@ -37,8 +37,14 @@ header .head_title{
 }
 
 .game_info{
-    margin-bottom: 10px;
+    line-height: 40px;
     font-size: 20px;
+}
+
+.caution{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: orangered;
 }
 
 .DLlink{
