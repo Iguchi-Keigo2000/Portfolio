@@ -36,6 +36,11 @@ header .head_title{
 
 }
 
+.game_info{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
 .DLlink{
     margin: auto;
 }
