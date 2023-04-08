@@ -78,16 +78,15 @@ header .menu_text{
 }
 
 .paragraph{
-    padding: 100px 100px 30px;
+    padding: 30px 100px;
 }
 
 .subtitle{
     height: 75px;
     line-height: 75px;
-    width: 100%;
+    width: 100% - 50px;
     font-size: 30px;
-    padding: 0px 50px;
-    float: left;
+    padding-left: 50px;
     background-color:lightblue;
 }
 
@@ -97,7 +96,7 @@ header .menu_text{
 }
 
 footer{
-    height: 50px;
+    height: 70px;
     width: 100%;
     text-align: center;
     padding: 15px 0;
