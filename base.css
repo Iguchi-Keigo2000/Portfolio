@@ -46,26 +46,56 @@ header .menu_text{
 }
 
 .game_title{
-    line-height: 75px;
-    height: 75px;
+    line-height: 50px;
+    height: 50px;
     width: 100%;
     font-size: 30px;
-    background-color: gainsboro;
+    color: white;
+    background-color:steelblue;
 }
 
 .game_catchphrase{
-    line-height: 50px;
-
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: white;
+    background-color:steelblue;
+    margin-bottom: 10px;
 }
 
 .game_info{
-    line-height: 40px;
+    margin: 10px;
+}
+
+.game_link_container{
+    width: 450px;
+    border-right: solid 5px steelblue;
+    border-left: solid 5px steelblue;
+    border-bottom: solid 5px steelblue;
+    color: white;
+    margin: 0px auto;
+}
+
+.game_link_title{
+    padding: 10px 20px;
+    background-color: steelblue;
+    margin: 0px;
+}
+
+.game_link_content{
+    padding: 10px;
     font-size: 20px;
 }
 
+.game_link{
+    line-height: 40px;
+    font-size: 20px;
+    margin: 20px;
+}
+
 .caution{
-    font-size: 12px;
-    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px;
     color: orangered;
 }
 
@@ -87,7 +117,8 @@ header .menu_text{
     width: 100% - 50px;
     font-size: 30px;
     padding-left: 50px;
-    background-color:lightblue;
+    color: white;
+    background-color:steelblue;
 }
 
 .footer_link{
