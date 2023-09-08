@@ -41,6 +41,10 @@ header .menu_text{
     font-family: sans-serif;
 }
 
+table{
+    font-size: 18px;
+}
+
 .game_article{
     margin-bottom: 25px;
     text-align: center;
@@ -108,8 +112,7 @@ header .menu_text{
 }
 
 .paragraph{
-    padding: 30px 5%;
-    line-height: 1.5;
+    padding: 20px 10% 30px;
 }
 
 .subtitle{
