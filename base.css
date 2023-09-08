@@ -108,6 +108,7 @@ header .menu_text{
 
 .paragraph{
     padding: 30px 100px;
+    line-height: 1.5;
 }
 
 .subtitle{
@@ -118,6 +119,14 @@ header .menu_text{
     padding-left: 50px;
     color: white;
     background-color:steelblue;
+}
+
+.month{
+    text-align: right;
+}
+
+.career{
+    text-align: left;
 }
 
 .footer_link{
