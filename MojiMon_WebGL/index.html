@@ -19,7 +19,7 @@
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
-        <!-- <div id="unity-fullscreen-button"></div> -->
+        <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">もじモン</div>
       </div>
     </div>
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/MojiMon_WebGL.loader.js";
+      var loaderUrl = buildUrl + "/MojiMon_WebGL_Windows.loader.js";
       var config = {
-        dataUrl: buildUrl + "/MojiMon_WebGL.data.unityweb",
-        frameworkUrl: buildUrl + "/MojiMon_WebGL.framework.js.unityweb",
-        codeUrl: buildUrl + "/MojiMon_WebGL.wasm.unityweb",
+        dataUrl: buildUrl + "/MojiMon_WebGL_Windows.data.unityweb",
+        frameworkUrl: buildUrl + "/MojiMon_WebGL_Windows.framework.js.unityweb",
+        codeUrl: buildUrl + "/MojiMon_WebGL_Windows.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SBOgames",
         productName: "もじモン",
@@ -106,9 +106,9 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-          //fullscreenButton.onclick = () => {
-          //  unityInstance.SetFullscreen(1);
-          //};
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
         }).catch((message) => {
           alert(message);
         });
